@@ -10,13 +10,37 @@
     <h1 id="title">freeCodeCamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form action="" id="survey-form">
-        <label for="" >Name</label>
+        <label for="" id="name-label" >Name</label>
         <input type="text" id="name" placeholder="Enter your name"> <br>
-        <label for="" >Email</label>
+        <label for="" id="email-label" >Email</label>
         <input type="text" id="email" placeholder="Enter your email"> <br>
-        <label for="" >Number</label>
+        <label for="" id="number -label" >Number</label>
         <input type="text" id="number" placeholder="Number"> <br>
-
+         <label for="">Which option best describes your current role?</label>
+        <select id="dropdown">
+            <select value="">Select a current role</option>
+            <option value="">Student</option>
+            <option value="">Full Time Job</option>
+            <option value="">Full Time Learner</option>
+            <option value="">Prefer not to say</option>
+            <option value="">Other</option>
+        </select>
+       
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" id="Definitely" name="Definitely" value="Definitely">
+        <label for="Definitely">Definitely</label><br>
+        <input type="radio" id="Maybe" name="Maybe" value="Maybe">
+        <label for="Maybe">Maybe</label><br>
+        <input type="radio" id="Not sure" name="Not sure" value="Not sure">
+        <label for="Not sure">Not sure</label>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" value="Front-end Projects">
+        <input type="checkbox" value="Back-end Projects">
+        <input type="checkbox" value="Challenges">
+        <input type="checkbox" value="Open Source Community">
+        <input type="checkbox" value="Gitter help rooms">
+        <input type="checkbox" value="Videos">
+        
     </form>
 
 </body>
